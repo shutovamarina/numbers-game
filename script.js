@@ -54,3 +54,17 @@ function play() {
         }
     }
 }
+
+//эффект печати букв заголовка
+let text = "Давай поиграем в игру..."
+let i = 0;
+let speed = 100;
+
+function type() {
+    if (i < text.length) {
+        document.querySelector("#title").textContent += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+    }
+}
+type();

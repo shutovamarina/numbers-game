@@ -7,6 +7,12 @@ body {
     background-position: center;
 }
 
+#title {
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #fff;
+}
+
 .container {
     background-color: rgb(240, 240, 240);
     border: 3px solid white;
